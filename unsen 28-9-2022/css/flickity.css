@@ -1,0 +1,43 @@
+.slide-show .item-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+.item-slide{
+    height: 1080px;
+}
+.slider-content{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 13.28%;
+    top: 50%;
+    z-index: 2;
+}
+.picture img{
+    z-index: -1;
+    position: absolute;
+}
+.slider-content .title span{
+    font-size: 60px;
+    font-family: Poppins light;
+    display: block;
+    color: #fff;
+}
+.slider-content .subtitle span{
+    font-size: 16px;
+    font-family: Poppins regular;
+    display: block;
+    color: #fff;
+}
+.slide-btn button{
+    width: 149px;
+    height: 44px;
+    font-size: 12px;
+    font-family: Poppins regular;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}

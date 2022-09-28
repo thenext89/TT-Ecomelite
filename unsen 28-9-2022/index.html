@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- link css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flickity.css">
+    <!-- link font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Layout -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- flickity slider css  -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <!-- place navbar here -->
+        <div class="wrapper-header">
+            <div class="header-logo col-xl-2">
+                Unsen.
+            </div>
+            <div class="header-nav col-xl-4">
+                <ul>
+                    <li><a href="#">DEMO</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">LOOKBOOK</a></li>
+                    <li><a href="#">PAGES</a></li>
+                </ul>
+            </div>
+            <div class="header-social col-xl-2">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="#"><i class="fa-brands fa-behance"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper-banner">
+            <div class="banner-slider" id="featured-courses">
+                <div class="item-slide col-12">
+                    <picture>
+                        <img src="./image/banner/img.png" alt="">
+                    </picture>
+                    <div class="slider-content">
+                        <div class="title">
+                            <span>Surf</span>
+                            <span>the sunset</span>
+                        </div>
+                        <div class="subtitle">
+                            <span>Colour the summer in hot fuschia, bubblegum pink</span>
+                        </div>
+                        <div class="slide-btn">
+                            <button>SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-slide col-12">
+                    <picture>
+                        <img src="./image/banner/img.png" alt="">
+                    </picture>
+                </div>
+                <div class="item-slide col-12">
+                    <picture>
+                        <img src="./image/banner/img.png" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+        </script>
+    <!-- Flickity slider js  -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script>
+        $("#featured-courses").flickity({
+            wrapAround: true,
+            pageDots: false,
+            prevNextButtons: false,
+        });
+    </script>
+</body>
+
+</html>
