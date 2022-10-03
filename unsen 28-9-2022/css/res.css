@@ -1,0 +1,22 @@
+@media screen and (max-width:1500px) {
+    /* store  */
+    .store-right-content{
+        overflow: hidden;
+    }
+    .store-right-content .store-img {
+        padding-right: 52.5px !important;
+        margin-right: 0;
+    }
+    .store-right-content .img-3 {
+        right: 0%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .header-logo .menu {
+        display: block;
+    }
+
+    .header-nav {
+        display: none;
+    }
+}
