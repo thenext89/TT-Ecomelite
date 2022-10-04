@@ -444,7 +444,7 @@ a.menu-item:hover{
 
 .menu-items {
     position: fixed;
-    width: 340px;
+    width: 300px;
     height: 100%;
     background-color: #fff;
     left: 0;
@@ -480,10 +480,6 @@ a.menu-item:hover{
 
 .submenu-item a:hover {
     color: #000;
-}
-
-.answer.active {
-    /* max-height: 200px; */
 }
 .submenu-link.active {
     background-color: #fff;
@@ -582,7 +578,7 @@ a.submenu-link {
     left: 13.28%;
     top: 50%;
     z-index: 2;
-    transform: translatey(-50%);
+    transform: translateY(-50%);
     margin-top: 8px;
 }
 .slider-content .title span{
@@ -591,9 +587,6 @@ a.submenu-link {
     display: block;
     color: #fff;
     line-height: 72px;
-}
-.slider-content .title span:last-child{
-
 }
 .slider-content .subtitle span{
     font-size: 16px;
