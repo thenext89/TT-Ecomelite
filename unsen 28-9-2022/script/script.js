@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // tab list 
     $('.product-content').hide();
     $('.product-content:first-child').fadeIn();
     $('.tab-list li').click(function () {
@@ -9,7 +10,7 @@ $(document).ready(function () {
         $(id).fadeIn();
     })
     $(window).scroll(function () {
-        let x = $(window).scrollTop();;
+        let x = $(window).scrollTop();
         if (x > 80) {
             $(header).addClass("active");
         }
@@ -17,6 +18,7 @@ $(document).ready(function () {
             $(header).removeClass('active');
         }
     });
+    // countdown
     function countdown() {
         let year = new Date('November 9, 2022 00:00:00').getTime();
         let yearNow = new Date().getTime();
@@ -33,6 +35,7 @@ $(document).ready(function () {
         $(".second").html(` ${s}`);
     }
     setInterval(countdown,1000);
+    
 });
 let menuBtn = document.querySelector(".menu-btn");
 let menu = document.querySelector('.menu');

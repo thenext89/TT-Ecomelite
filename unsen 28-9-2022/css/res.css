@@ -1,5 +1,16 @@
+@media screen and (max-width:1600px){
+    /*========================== header ====================== */
+    /*========================== banner ====================== */
+    /*========================== countdown ====================== */
+    /*========================== product ====================== */
+    /*========================== store ====================== */
+}
 @media screen and (max-width:1500px) {
-    /* store  */
+    /*========================== header ====================== */
+    /*========================== banner ====================== */
+    /*========================== countdown ====================== */
+    /*========================== product ====================== */
+    /*========================== store ====================== */
     .store-right-content{
         overflow: hidden;
     }
@@ -10,13 +21,273 @@
     .store-right-content .img-3 {
         right: 0%;
     }
+    /*========================== comment ====================== */
+    .comment-title p br{
+        display: none;
+    }
+    .comment-title{
+        align-items: center;
+        justify-content: center;
+    }
+    .slider-comment .flickity-prev-next-button.previous{
+        left:15px;
+    }
+    .slider-comment .flickity-prev-next-button.next{
+        right:15px;
+    }
+    /*========================== store ====================== */
+    /*========================== footer ====================== */
+    .subscribe{
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width:1200px){
+    /*========================== header ====================== */
+    /*========================== banner ====================== */
+    /*========================== countdown ====================== */
+    .countdown-content{
+
+    }
+    .content-title{
+        padding-top: 0;
+    }
+    .countdown-content{
+        height: auto;
+    }
+    .countdown-content .content-title span{
+        display: unset !important;
+        font-size: 30px;
+    }
+    .countdown-right{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .time-countdown{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .countdown-right a{
+        margin-top: 0;
+    }
+    /*========================== product ====================== */
+    .product-slider .flickity-prev-next-button{
+        display: none;
+    }
+    /*========================== store ====================== */
+    /*========================== comment ====================== */
+    .slider-comment .comment-item {
+        /* width: 51.5625%; */
+        padding: 0 15px;
+        width: 100%;
+    }
+    .slider-comment .flickity-prev-next-button{
+        display: none;
+    }
+    /*========================== store ====================== */
+    /*========================== footer ====================== */
+    .footer-container.row {
+        max-width: 780px;
+    }
 }
 @media screen and (max-width:1024px) {
+     /*========================== header ====================== */
     .header-logo .menu {
         display: block;
     }
 
     .header-nav {
         display: none;
+    }
+    .header-right{
+        display: flex;
+        align-items: center;
+    }
+    /*========================== banner ====================== */
+    /*========================== countdown ====================== */
+    .background-countdown{
+        height: 315px;
+        width: auto;
+    }
+    .background-countdown img{
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+    }
+    /*========================== product ====================== */
+    /*========================== store ====================== */
+    /*========================== comment ====================== */
+    /*========================== store ====================== */
+    /*========================== footer ====================== */
+}
+@media screen and (max-width:992px){
+    /*========================== header ====================== */
+    /*========================== banner ====================== */
+    .slider-content{
+        transform: translateY(-40%);
+        left: 15px;
+    }
+    .slider-content .title span{ 
+        font-size: 30px;
+        line-height: 50px;
+        display: unset;
+    }
+    .slider-content .subtitle span{
+        display: none;
+    }
+    .slider-content .slide-btn{
+        margin-top: 30px;
+    }
+    .banner-slider:hover .flickity-prev-next-button{
+        opacity: 0;
+    }
+    /*========================== countdown ====================== */
+    /*========================== product ====================== */
+    /*========================== store ====================== */
+    .wrapper-store{
+        padding: 0 15px;
+    }
+    .store-left-content{
+        margin-top: 30px;
+    }
+    .store-left-content .title{
+        text-align: center;
+    }
+    .store-left-content .title span{
+        display: unset;
+    }
+    .store-left-content .subtitle span {
+        text-align: center;
+        display: unset;
+    }
+    .store-right-content{
+        margin-top: 50px;
+    }
+    .store-img{
+        width: 100%;
+        
+    }
+    .store-img .img-2{
+        justify-content: flex-end;
+    }
+    .store-right-content .img-1{
+        display: flex;
+        justify-content: flex-end;
+    }
+    /*========================== comment ====================== */
+    /*========================== instagram ====================== */
+    .account-ins{
+        padding: 0 10px;
+    }
+    /*========================== footer ====================== */
+}
+@media screen and (max-width:768px){
+    /*========================== header ====================== */
+    /*========================== banner ====================== */
+    .item-slide img{
+        height: 100%;
+        width: auto;
+        object-fit: cover;
+    }
+    .banner-slider .item-slide .background-banner{
+        height: 432px;
+        width: auto;
+    }
+    /*========================== countdown ====================== */
+    /*========================== product ====================== */
+    /*========================== store ====================== */
+    /*========================== comment ====================== */
+    /*========================== store ====================== */
+    /*========================== footer ====================== */
+}
+@media screen and (max-width:576px){
+    /*========================== header ====================== */
+    .header-right a:nth-child(2), .header-right a:nth-child(3){
+        display: none;
+    }
+    /*========================== banner ====================== */
+
+    /*========================== countdown ====================== */
+    .countdown-content{
+        left: 15px;
+        width: 90%;
+    }
+    /*========================== product ====================== */
+    .slide-item a{
+        width: 120px;
+        height: 40px
+    }
+
+    /*========================== store ====================== */
+    .store-img .img-3{
+        width: 80px;
+        height: 80px;
+    }
+    /*========================== comment ====================== */
+    /*========================== store ====================== */
+    /*========================== footer ====================== */
+    .footer-bot .row>div{
+        padding: 5px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-bot-img{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        /* padding-top: 10px; */
+    }
+    .footer-bot-img img{
+        line-height: 17px;
+    }
+
+}   
+@media screen and (max-width:480px){
+    /*========================== header ====================== */
+    /*========================== banner ====================== */
+    .slider-content{
+        transform: translateY(-30%);
+        left: 15px;
+    }
+    .slider-content .title span{ 
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .slider-content .slide-btn{
+        margin-top: 20px;
+    }
+    .slider-content .slide-btn button{
+        width: 115px;
+        height: 36px;
+    }
+    /*========================== countdown ====================== */
+    /*========================== product ====================== */
+    .container-btn > div a{
+        min-width: 50px;
+        font-size: 8px;
+        line-height: 20px;
+    }
+    /*========================== store ====================== */
+    /*========================== comment ====================== */
+    /*========================== instagram ====================== */
+    .acc-item{
+        width: 100%;
+    }
+    /*========================== footer ====================== */
+} 
+@media screen and (min-width:1400px) {
+    /* instagram  */
+    .acc-item{
+        width: 20%;
+    }
+    /* footer  */
+    .footer-list{
+        width: 62.5%;
+    }
+    .subscribe{
+        width: 29.4%;
+    }
+    .footer-list > div:not(:first-child){
+        margin-left: -7px;
     }
 }
