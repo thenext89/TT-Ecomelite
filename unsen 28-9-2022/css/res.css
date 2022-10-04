@@ -41,18 +41,18 @@
         padding: 0 15px;
     }
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:1199px){
     /*========================== header ====================== */
     /*========================== banner ====================== */
     /*========================== countdown ====================== */
-    .countdown-content{
-
-    }
     .content-title{
         padding-top: 0;
     }
     .countdown-content{
         height: auto;
+    }
+    .countdown-content .content-title{
+        border: none;
     }
     .countdown-content .content-title span{
         display: unset !important;
@@ -86,7 +86,7 @@
     /*========================== store ====================== */
     /*========================== footer ====================== */
     .footer-container.row {
-        max-width: 780px;
+        max-width: 960px;
     }
 }
 @media screen and (max-width:1024px) {
