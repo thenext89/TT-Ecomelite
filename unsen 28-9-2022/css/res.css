@@ -172,8 +172,12 @@
     .store-right-content .img-1{
         display: flex;
         justify-content: flex-end;
+        /* height: 300px; */
     }
     /*========================== comment ====================== */
+    .comment-container{
+        padding: 100px 0;
+    }
     /*========================== instagram ====================== */
     .account-ins{
         padding: 0 10px;
