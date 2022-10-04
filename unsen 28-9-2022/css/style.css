@@ -1193,7 +1193,9 @@ a.submenu-link {
     height: 115px;
     background-color: #eaf1f6;
 }
-
+.marquee>div:hover{
+    animation-play-state: paused;
+}
 .marquee>div {
     display: flex;
     width: 500%;
