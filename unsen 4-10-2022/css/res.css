@@ -1,0 +1,270 @@
+@media screen and (min-width:1700px) {
+    .banner-item .banner-content-inner {
+        max-width: 1440px;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width:1400px) {
+
+    /* product  */
+    .product-item {
+        max-width: 20% !important;
+    }
+
+    /* ship  */
+    .blog-container.container {
+        max-width: 1440px;
+        padding: 0;
+    }
+
+    /* footer  */
+    .footer-container.container {
+        max-width: 1770px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:1700px) {
+    .band-item1 .subheading br {
+        display: none;
+    }
+
+    .store-content .subheading br {
+        display: none;
+    }
+
+    .store-content-inner {
+        padding-top: 20px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+
+    /* band  */
+    .band-item1 {
+        padding-top: 20px;
+    }
+    /* store  */
+    .store-content-inner{
+        padding-left: 30px;
+    }
+    .store-content .heading br {
+        display: none;
+    }
+
+    .store-content .heading {
+        font-size: 50px;
+    }
+
+    /*========================== footer ====================== */
+    .footer-contact-content {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    /*========================== header ====================== */
+    /*========================== banner ====================== */
+    .banner-content-inner {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .banner-content-item .heading {
+        font-size: 50px;
+    }
+
+    .banner-content .subheading {
+        font-size: 15px;
+    }
+
+    .banner-background {
+        height: 460px;
+    }
+
+    .banner-background img {
+        height: 100%;
+        width: auto;
+    }
+
+    /*========================== band ====================== */
+    .band-item1 {
+        padding-top: 40px;
+    }
+
+    /*========================== store ====================== */
+    .store-content-inner {
+        padding-left: 30px;
+    }
+
+    /*========================== footer ====================== */
+    .footer-email {
+        padding-left: 0;
+    }
+
+    .footer-email .title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    /*========================== header ====================== */
+    .header-logo .menu {
+        display: block;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header-topbar {
+        display: none !important;
+    }
+
+    .header-logo {
+        padding-top: 10px;
+    }
+
+    /*========================== banner ====================== */
+    .banner-slider .flickity-prev-next-button {
+        opacity: 0;
+    }
+
+    /*========================== store ====================== */
+    .store-content .subheading {
+        margin-bottom: 24px;
+    }
+
+    .store-img img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    /*========================== show ====================== */
+    .show-content {
+        justify-content: center;
+    }
+
+    .show-content>div:last-child {
+        margin-top: 100px;
+    }
+
+    /*========================== band ====================== */
+    .wrapper-band {
+        margin-top: 100px;
+    }
+
+    .band-item-slide {
+        padding-left: 50px;
+    }
+
+    .band-cover {
+        margin: 0;
+    }
+
+    .background-slide-band {
+        height: fit-content;
+    }
+
+    .background-slide-band img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /*========================== store ====================== */
+    .store-content-inner {
+        padding: 50px;
+
+    }
+
+    .store-right {}
+
+    /*========================== product ====================== */
+    .thumbnail-img {
+        height: auto;
+        max-height: 350px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /*========================== band ====================== */
+    .band-item-slide {
+        padding-left: 10px;
+    }
+
+    /*========================== footer ====================== */
+    .footer-list ul {
+        padding: 20px 0 0 0;
+    }
+
+    .footer-email {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    /*========================== header ====================== */
+    .header-right a:nth-child(2),
+    .header-right a:nth-child(3) {
+        display: none;
+    }
+
+    /*========================== banner ====================== */
+    .banner-content-item .title {
+        font-size: 12px;
+    }
+
+    .banner-content-item .heading {
+        font-size: 40px;
+    }
+
+    .banner-content .subheading {
+        font-size: 15px;
+    }
+
+    /*========================== show ====================== */
+    .show-content>div:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    /*========================== band ====================== */
+    .band-item-slide {
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    /*========================== store ====================== */
+    .store-content-inner {
+        padding: 50px 15px;
+    }
+
+    /*========================== product ====================== */
+    .thumbnail-img {
+        height: fit-content;
+        max-height: fit-content;
+    }
+
+    /*========================== footer ====================== */
+    .footer-contact-content {
+        margin-top: 30px;
+    }
+
+    .footer-bot-right,
+    .footer-bot-left {
+        display: flex;
+        justify-content: center;
+    }
+}
